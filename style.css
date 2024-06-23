@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #EDF3F8;
+    padding: 40px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #36536B;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    padding: 16px 24.5px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    background: #BA4270;
+}
+
+.menu-btn {
+    background-color: inherit;
+    font-size: 30px;
+    border: none;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:580px) {
+    header {
+        padding: 40px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+}
+
+.hero {
+    background-color: #EDF3F8;
+    padding-bottom: 91px;
+    padding-top: 58px;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    gap: 218px;
+    justify-content: center;
+
+}
+
+.text h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 72px;
+    font-weight: 450;
+    line-height: 72px;
+    letter-spacing: -0.5538461804389954px;
+    color: #36536B;
+    max-width: 546px;
+}
+
+.hero .container img {
+    width: 263px;
+    height: 500px;
+
+}
+
+.news {
+    background-color: #1B262F;
+    padding: 100px 0;
+}
+
+.news-text h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.3692307770252228px;
+    color: #FBFCFE;
+    padding-bottom: 24px;
+}
+
+.news-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 28px;
+    text-align: left;
+    color: #cacaca;
+    padding-bottom: 32px;
+}
+
+.btn1 {
+    padding: 16px 32px;
+    background-color: inherit;
+    color: #FBFCFE;
+    border: 1px solid #FBFCFE;
+    border-radius: 30px;
+}
+
+.news .container {
+    display: flex;
+    gap: 131px;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-img {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 536px;
+    gap: 60px;
+}
+
+.implement .container {
+    display: flex;
+    gap: 125px;
+    align-items: center;
+    justify-content: center;
+}
+
+.implement {
+    background-color: #EDF3F8;
+    padding-top: 150px;
+    padding-bottom: 125px;
+}
+
+.implement-text h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.3692307770252228px;
+    text-align: left;
+    color: #36536B;
+    padding-bottom: 24px;
+}
+
+.implement-text p {
+    color: #6C8294;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.money {
+    background-color: #EDF3F8;
+    padding-bottom: 72px;
+}
+
+.money2 {
+    text-align: center;
+}
+
+.money2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.13846154510974884px;
+    text-align: center;
+    color: #36536B;
+    padding-bottom: 16px;
+    padding-top: 32px;
+}
+.money2 p{
+    color: #6C8294;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+footer{
+    background-color: #1B262F;
+    padding: 31px;
+}
+.menu1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.menu1 li a {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .hero .container {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 48px;
+        max-width: 580 px;
+    }
+
+    header {
+        padding: 40px 100px;
+    }
+    .menu li a{
+        font-size: 10px;
+    }
+    
+}
